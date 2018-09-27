@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
     res.send('gravy boat and train');
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
